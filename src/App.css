@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  max-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+label {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.unownedRow {
+  background: -webkit-linear-gradient(left, rgba(222,22,22,1) 0%, rgba(222,222,222,1) 50%, rgba(222,200,200,1) 80%, rgba(222,22,22,1) 100%);
+}
+.unownedRow:hover {
+  background: -webkit-linear-gradient(left, rgb(173, 8, 8) 0%, rgb(214, 166, 166) 50%, rgb(117, 68, 68) 80%, rgb(160, 3, 3) 100%);
+}
+.ownedRow {
+  background: -webkit-linear-gradient(left, rgba(60,179,113,1) 0%, rgba(144,238,144,1) 50%, rgba(144,238,144,1) 80%, rgba(60,179,113,1) 100%);
+}
+.ownedRow:hover {
+  background: -webkit-linear-gradient(left, rgb(36, 173, 98) 0%, rgb(110, 231, 110) 50%, rgb(115, 228, 115) 80%, rgb(32, 167, 93) 100%);
+}
